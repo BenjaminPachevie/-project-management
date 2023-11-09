@@ -1,5 +1,5 @@
 import logo from "../assets/no-projects.png";
-import { Button } from "./button";
+import { Button } from "./Button";
 
 export default function Content() {
   return (
