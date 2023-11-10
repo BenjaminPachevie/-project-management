@@ -9,7 +9,7 @@ export default function NewProject({ onCancelAdd, onAdd }) {
   const title = useRef();
   const description = useRef();
   const dueDate = useRef();
-
+  
   function handleSave() {
     const enteredTitle = title.current.value;
     const enteredDescription = description.current.value;
